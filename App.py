@@ -10,7 +10,7 @@ app=Flask(__name__)
 
 #@Home page....
 
-@app.route('/Home')
+@app.route('/')
 def Home():
    return render_template('index.html')
 
